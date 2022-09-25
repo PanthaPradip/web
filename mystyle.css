@@ -1,7 +1,11 @@
 body{
     background-color: azure;
+    margin: 0px;
 }
 
+.s_intro{
+    padding-left: 20px;
+}
 hr{
     border-color:grey;
     border-width: 7px;
@@ -15,4 +19,31 @@ h3{
 
 h2{
     color:#66BFBF;
+}
+
+.intro{
+    background-color: #8BBCCC;
+    
+}
+
+.edu{
+    padding-left: 20px;
+}
+
+.hobby{
+    padding-left: 20px;
+}
+
+.skill{
+    padding-left: 20px;
+}
+
+.footer{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.other{
+    margin-left: 30px;
+    margin-bottom: 50px;
 }
