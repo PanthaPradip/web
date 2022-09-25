@@ -4,7 +4,7 @@ body{
 }
 
 .s_intro{
-    padding-left: 20px;
+    padding-left: 2%;
 }
 hr{
     border-color:grey;
@@ -27,23 +27,23 @@ h2{
 }
 
 .edu{
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .hobby{
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .skill{
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .footer{
-    margin-left: 600px;
-    margin-top: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
 }
 
 .other{
-    margin-left: 30px;
-    margin-bottom: 50px;
+    margin-left:10%;
+    margin-bottom: 5%;
 }
