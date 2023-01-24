@@ -1,4 +1,4 @@
-@media screen and (max-width:1024px){
+@media screen and (max-width:1300px){
 
     h2 {
         font-size: 36px;
@@ -85,7 +85,7 @@
     /* Intro */
         
     #intro{
-        background-image: url("image/intro.png");
+        background-image: url("intro.png");
         height: 70vh;
         width: 100%;
         background-size: cover;
