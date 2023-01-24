@@ -108,7 +108,7 @@ body {
                                                       /* Intro Page Start */
 
 #intro{
-    background-image: url("image/intro.png");
+    background-image: url("intro.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
