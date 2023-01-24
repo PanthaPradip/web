@@ -1,0 +1,164 @@
+@media screen and (max-width: 1024px){
+
+    h2 {
+        font-size: 36px;
+        line-height: 34px;
+        color:rgb(98, 98, 98);
+    }
+    
+    
+    h6 {
+        font-weight: 700;
+        font-size: 12px;
+    }
+    
+    h5 {
+        font-weight: 500;
+        font-size: 16px;
+        color:#8b8b8b;
+    
+    }
+    
+    p {
+        font-size: 0.5em;
+        margin: 15px 0 20px 0;
+        color:#5c786c;
+    }
+
+    
+    /* Header */
+    #header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 5px;
+        background: #e3e6f3;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 111;
+    }
+    
+    .logo{
+        width: 80px;
+    }
+    
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    #navbar li{
+        list-style: none;
+        padding: 0 5px; 
+        position: relative;
+    }
+    #navbar li a{
+        text-decoration: none;
+        font-size: 8px;
+        font-weight: 600;
+        color: #585858;
+        transition: 0.3s ease-in-out;
+    }
+    #navbar li a:hover,
+    #navbar li a.active{
+        color: #088178;
+    }
+    #navbar li a.active::after,
+    #navbar li a:hover::after{
+        content: "";
+        width: 30%;
+        height: 1px;
+        background: #088178;
+        position: absolute;
+        bottom: -1px;
+        left: 5px;
+    }
+    
+    .running{
+        width:20px;
+    }
+    
+    
+    /* Intro */
+        
+    #intro{
+        background-image: url("image/intro.png");
+        height: 40vh;
+        width: 100%;
+        background-size: cover;
+        background-position: top 25% right 60%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .cols{
+        width: 100%;
+    }
+    
+    
+    .topline{
+        font-weight: 300;
+        display:block;
+        position: relative;
+        font-size: 15px;
+        letter-spacing: 5px;
+        color: #3d535f;
+    
+    }
+    .topline::after{
+        position:absolute;
+        content:'';
+        height:2px;
+        width:25px;
+        bottom:5px;
+        background-color: #7f00ff;
+    }
+    
+    
+    #intro h4{
+        color:#747474;
+        font-weight: 600;
+        font-size: 0.6em;
+    }
+    #intro h1 {
+        display: block;
+        font-size: 2em;
+        font-weight: 900;
+        color:#3d535f;
+    }
+    
+    .multitext{
+        color:#7f00ff;
+        text-transform: capitalize;
+    }
+    
+    button{
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 0.6em;
+        font-weight: 400;
+        color: #fff;
+        background-color: #3d535f;
+        padding: 8px 14px;
+        margin: 20px 5px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        box-shadow: 0 15px 10px rgba(0, 0, 0, 0.04); 
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color:#7f00ff;
+    
+    }
+    
+    .cv{
+        width: 100%;
+        position: relative;    
+    }
+}
