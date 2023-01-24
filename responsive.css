@@ -41,7 +41,8 @@
     }
     
     .logo{
-        width: 80px;
+        width: 100px;
+        margin-left: 10px;
     }
     
     #navbar {
@@ -84,8 +85,8 @@
     /* Intro */
         
     #intro{
-        background-image: url("intro.png");
-        height: 40vh;
+        background-image: url("image/intro.png");
+        height: 70vh;
         width: 100%;
         background-size: cover;
         background-position: top 25% right 60%;
