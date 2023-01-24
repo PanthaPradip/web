@@ -84,7 +84,7 @@
     /* Intro */
         
     #intro{
-        background-image: url("image/intro.png");
+        background-image: url("intro.png");
         height: 40vh;
         width: 100%;
         background-size: cover;
