@@ -13,11 +13,11 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   font-family: "Roboto", sans-serif;
 }
 
-header {
+.container {
   background-image: url("assets/bg.png");
   background-position: bottom center;
   background-repeat: no-repeat;
