@@ -30,6 +30,12 @@ h5 {
 
 }
 
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #7C93C3;
+}
+
 p {
     font-size: 16px;
     margin: 15px 0 20px 0;
