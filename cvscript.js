@@ -1,6 +1,6 @@
 function downloadFile() {
     var link = document.createElement("a");
-    link.download = "PANTHA PRADIP S.pdf";
-    link.href = "PANTHA PRADIP S.pdf";
+    link.download = "myCv.pdf";
+    link.href = "myCv.pdf";
     link.click();
 }
